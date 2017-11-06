@@ -1,6 +1,7 @@
 ---
 layout: default
 ---
+<script type="text/javascript" src="https://api.lwl12.com/hitokoto/main/get?encode=js&charset=utf-8"></script>
 
 <!-- Page Header -->
 <header class="intro-header" style="background-image: url('{{ site.baseurl }}/{% if page.header-img %}{{ page.header-img }}{% else %}{{ site.header-img }}{% endif %}')">
@@ -10,7 +11,7 @@ layout: default
                 <div class="site-heading">
                     <h1>{% if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}</h1>
                     <!--<hr class="small">-->
-                    <span class="subheading">{{ page.description }}</span>
+                    <span class="subheading"><script>subheading()</script></span>
                 </div>
             </div>
         </div>
