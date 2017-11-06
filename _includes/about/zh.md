@@ -1,7 +1,7 @@
 > 离开世界之前，一切都是过程。
 
 Hey，我是公民小李，进化程度不明，多出没于[博客](https://gmxiaoli.com)、[Github](http://github.com/1121939090) 等地带。
-![mark](http://oyy6ppgxt.bkt.clouddn.com/blog/171106/ehBmDK64ia.jpg?imageslim)
+![mark](http://oyy6ppgxt.bkt.clouddn.com/blog/171106/BG0gL2hb95.jpg?imageslim)
 软件项目，👉 戳 [Portfolio](/portfolio)、[Github](http://github.com/1121939090)。 
 
 
