@@ -94,5 +94,5 @@ for (var key in a) {
 	window.alert(key + " "+a[key]);
 }
 ```
-未完。
+未完
 
