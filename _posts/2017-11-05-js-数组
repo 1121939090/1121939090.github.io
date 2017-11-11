@@ -1,0 +1,98 @@
+---
+layout:     post
+title:      "js-数组"
+subtitle:   "js数组"
+date:       2017-11-11 20:00:00
+author:     "Lzy"
+header-img: "img/post-bg-js.jpg"
+tags:
+    - js笔记
+---
+>数组:把多个数据放在一起管理，就是数组。  
+  
+**为什么需要数组？**  
+乌龟体重问题  
+
+```
+//定义一个数组
+var wg_weight_arr = [3, 10, 15, 20, 25, 30, 10, 15, 20, 25, 30, 10, 15, 20, 25, 30];
+//遍历一个数组
+//数组包含的数据个数
+var wg_weight_arr_size = wg_weight_arr.length;
+//window.alert(wg_weight_arr_size);
+var total_weight = 0;
+//遍历数组
+for(var i = 0; i < wg_weight_arr_size; i++){
+	//怎么取出数组中的每个数据？
+	//window.alert(wg_weight_arr[i]);
+	total_weight += wg_weight_arr[i];
+}
+window.alert("总体重="+ total_weight+ "平均体重="+ total_weight/wg_weight_arr_size);
+```
+**一维数组**
+js中的数据是用于表示一组数据的集合，它由一对方括号[]包围，数组的每个元素用逗号分隔，数据元素可以是++任意类型的数据++。  
+![mark](http://oyy6ppgxt.bkt.clouddn.com/blog/171111/C3g74gIbf6.png?imageslim)
+  
+**数据的传递方式**  
+js中数组是引用传递    
+
+```
+ var cats = ["小猫咪","小黄猫"];
+ 将cats这个数组赋给cats2这个变量 
+ var cats2 = cats;
+ window.alert(cats2[0]);
+ cats2[0] = "大花猫";
+ window.alert(cats2[0]);
+ window.alert(cats[0]);//这里输出大花猫
+ //普通变量
+ var a = 10;
+ var b = a;
+ b = 90;
+ window.alert(a);
+```
+![mark](http://oyy6ppgxt.bkt.clouddn.com/blog/171111/JDK6Gieae6.png?imageslim)
+
+**数据传递的几个原则：  **
+
+1：基本数据类型，是值传递。  
+2：数组是引用传递。  
+  
+###   数组的使用
+
+```
+var arr = [10, 90];
+//当我们使用一个不存在的数据时，underfined
+window.alert(arr[3]);
+var city = ['北京','上海'];
+//当我们给一个存在的数据重新赋值时候，相当于覆盖。
+city [0] = "天津"; 
+//当我们给不存在的数据赋值是，会导致这个数组动态增长。
+city [21] = "成都";
+//当我们直接输出这个数组名，会显示全部数据。
+window.alert("city ="+ city);
+window.alert(city.length);
+```
+### 数组的基本语法
+1：分隔成数组  
+
+```
+var str = "北京 天津 上海";
+var city = str.split(" ");//用空格分隔成数组。
+window.alert(city);
+```
+2：数组的遍历
+
+```
+var a = [80, 0, 12, "北京", true];
+//常规的遍历
+for (var i = 0; i < a.length; i++){
+	window.alert(a[i]);
+}   
+//第二种遍历方式
+//key表示数组的下标
+for (var key in a) {
+	window.alert(key + " "+a[key]);
+}
+```
+未完。
+
