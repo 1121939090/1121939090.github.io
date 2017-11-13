@@ -2,14 +2,19 @@
 layout:     post
 title:      "git将项目上传到github"
 subtitle:   "git将项目上传到github"
-date:       2017-11-13 11:00:00
+date:       2017-11-13 20:00:00
 author:     "Lzy"
 header-img: "img/post-bg-git.jpg"
 tags:
     - git
 ---
->首先你需要一个github账号，还没有的话先去注册吧！http://github.com/  
-我们使用git需要先安装git工具，这里给出下载地址，下载后一路直接安装即可：http://git-for-windows.github.io
+>首先你需要一个github账号，所有还没有的话先去注册吧！<html>
+<a href="http://github.com/" target="_blank">点击前往注册</a>
+</html>
+
+>我们使用git需要先安装git工具，这里给出下载地址，下载后一路直接安装即可：<html>
+<a href="http://git-for-windows.github.io/" target="_blank">点击前往下载</a>
+</html>
 
 **1.进入Github首页，点击New repository新建一个项目** ![mark](http://oyy6ppgxt.bkt.clouddn.com/blog/171113/I33j5kcB0A.png?imageslim)  
 
