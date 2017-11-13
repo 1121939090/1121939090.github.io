@@ -10,18 +10,15 @@ tags:
 ---
 >首先你需要一个github账号，所有还没有的话先去注册吧！
 https://github.com/  
-我们使用git需要先安装git工具，这里给出下载地址，下载后一路直接安装即可：  
-https://git-for-windows.github.io/     
+我们使用git需要先安装git工具，这里给出下载地址，下载后一路直接安装即可：[点击下载](http://git-for-windows.github.io/)
 
 **1.进入Github首页，点击New repository新建一个项目** ![mark](http://oyy6ppgxt.bkt.clouddn.com/blog/171113/I33j5kcB0A.png?imageslim)  
 
 **2.填写相应信息后点击create即可**  
 Repository name: 仓库名称  
 Description(可选): 仓库描述介绍  
-Public, Private :  
-仓库权限（公开共享，私有或指定合作者）  
-Initialize this repository with a README:  
-添加一个README.md  
+Public, Private :  仓库权限（公开共享，私有或指定合作者）  
+Initialize this repository with a README:添加一个README.md  
 gitignore: 不需要进行版本管理的仓库类型，对应生成文件.gitignore  
 license: 证书类型，对应生成文件LICENSE  
 ![mark](http://oyy6ppgxt.bkt.clouddn.com/blog/171113/CJ861LlbIm.png?imageslim)  
