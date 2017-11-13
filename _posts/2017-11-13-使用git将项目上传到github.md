@@ -2,7 +2,7 @@
 layout:     post
 title:      "git将项目上传到github"
 subtitle:   "git将项目上传到github"
-date:       2017-11-13 20:00:00
+date:       2017-11-13 11:00:00
 author:     "Lzy"
 header-img: "img/post-bg-git.jpg"
 tags:
