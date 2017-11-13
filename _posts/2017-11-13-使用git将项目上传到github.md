@@ -9,9 +9,9 @@ tags:
     - git
 ---
 >首先你需要一个github账号，所有还没有的话先去注册吧！
->https://github.com/  
->我们使用git需要先安装git工具，这里给出下载地址，下载后一路直接安装即可：  
->https://git-for-windows.github.io/   
+https://github.com/  
+我们使用git需要先安装git工具，这里给出下载地址，下载后一路直接安装即可：  
+https://git-for-windows.github.io/   
 **1.进入Github首页，点击New repository新建一个项目** ![mark](http://oyy6ppgxt.bkt.clouddn.com/blog/171113/I33j5kcB0A.png?imageslim)
 **2.填写相应信息后点击create即可**  
 Repository name: 仓库名称  
