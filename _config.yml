@@ -15,10 +15,6 @@ RSS: false
 weibo_username:     2458377677
 zhihu_username:     gong-min-xiao-li/activities
 github_username:    lizhaoyismile
-#twitter_username:   huxpro
-#facebook_username:  huxpro
-# linkedin_username:  firstname-lastname-idxxxx
-
 
 
 # Build settings
@@ -87,9 +83,6 @@ service-worker: true
 # Friends
 friends: [
     {
-        title: "乱序",
-        href: "http://mida.re/"
-    },{
         title: "尹峰以为",
         href: "http://ingf.github.io/"
     },{
