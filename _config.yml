@@ -3,7 +3,7 @@ title: Lzy Blog
 SEOTitle: 公民小李的博客 | Lzy Blog
 header-img: img/home-bg.jpg
 email: 1121939090@qq.com
-description: "关于前端与设计、黑客与画家 | 这里是 @公民小李的个人博客，与你一起发现更大的世界。"
+description: "关于设计与代码、黑客与屌丝 | 这里是 @公民小李的个人博客，与你一起发现更大的世界。"
 keyword: "公民小李,Lzy,敲着键盘的公民小李,LzyBlog, js,php,gmxiaoli,Web,JavaScript,前端,设计"
 url: "https://gmxiaoli.com"              # your host, for absolute URL
 baseurl: ""                             # for example, '/blog' if your blog hosted on 'host/blog'
