@@ -183,7 +183,7 @@ body, html {
 .i-junzilan:before {
 	content: "";
 	display: block;
-	width: 40px;
+	width: 80px;
 	height: 40px;
 	background: url("../images/logo-junzilan.png") 50% 50% no-repeat;
 	background-size: 22px;
