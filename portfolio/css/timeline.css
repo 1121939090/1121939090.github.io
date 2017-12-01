@@ -180,6 +180,14 @@ body, html {
 	background: url("../images/logo-luori.png") 50% 50% no-repeat;
 	background-size: 22px;
 }
+.i-junzilan:before {
+	content: "";
+	display: block;
+	width: 40px;
+	height: 40px;
+	background: url("../images/logo-junzilan.png") 50% 50% no-repeat;
+	background-size: 22px;
+}
 /******* Hux Branch *****/
 
 /* navbar - dark mode */
