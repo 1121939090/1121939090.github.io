@@ -164,13 +164,20 @@ body, html {
 	background-size: 22px;
 }
 
-
 .i-Pulp:before {
 	content: "";
 	display: block;
 	width: 40px;
 	height: 40px;
 	background: url("../images/logo-Pulp.png") 50% 50% no-repeat;
+	background-size: 22px;
+}
+.i-luori:before {
+	content: "";
+	display: block;
+	width: 40px;
+	height: 40px;
+	background: url("../images/logo-luori.png") 50% 50% no-repeat;
 	background-size: 22px;
 }
 /******* Hux Branch *****/
