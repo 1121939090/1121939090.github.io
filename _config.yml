@@ -87,7 +87,7 @@ friends: [
         href: "http://ingf.github.io/"
     },{
         title: "海滨小筑",
-        href: "http://penghb.com/"
+        href: "http://penghb.com/" target = "_blank"
     },{
         title: "前端神盾局",
         href: "http://wepiaofei.github.io/blog/"
