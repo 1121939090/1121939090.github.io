@@ -1,205 +1,84 @@
-h1, h2, h3, h4 {
-    color: #111111;
-    font-weight: 400;
-    margin-top: 1em;
+/* to make lines scroll instead of wrap */
+/* from http://stackoverflow.com/a/23393920 */
+
+.highlight pre code * {
+  white-space: nowrap;    // this sets all children inside to nowrap
 }
 
-h1, h2, h3, h4, h5 {
-	font-family: Georgia, Palatino, serif;
-}
-h1, h2, h3, h4, h5, dl{
-    margin-bottom: 16px;
-    padding: 0;
+.highlight pre {
+  overflow-x: auto;       // this sets the scrolling in x
 }
 
-p {
-    margin-top: 8px;
-    margin-bottom: 3px;
-}
-h1 {
-    font-size: 48px;
-    line-height: 54px;
-}
-h2 {
-    font-size: 36px;
-    line-height: 42px;
-}
-h1, h2 {
-    border-bottom: 1px solid #EFEAEA;
-    padding-bottom: 10px;
-}
-h3 {
-    font-size: 24px;
-    line-height: 30px;
-}
-h4 {
-    font-size: 21px;
-    line-height: 26px;
-}
-h5 {
-    font-size: 18px;
-    line-height: 23px;
-}
-a {
-    color: #0099ff;
-    margin: 0 2px;
-    padding: 0;
-    vertical-align: baseline;
-    text-decoration: none;
-}
-a:hover {
-    text-decoration: none;
-    color: #ff6600;
-}
-a:visited {
-    /*color: purple;*/
-}
-ul, ol {
-    padding: 0;
-    padding-left: 18px;
-    margin: 0;
-}
-li {
-    line-height: 24px;
-}
-p, ul, ol {
-    font-size: 16px;
-    line-height: 24px;
+.highlight pre code {
+  white-space: pre;       // forces <code> to respect <pre> formatting
 }
 
-ol ol, ul ol {
-    list-style-type: lower-roman;
-}
 
-code, pre {
-    font-family: Consolas, Monaco, Andale Mono, monospace;
-    background-color:#f7f7f7;
-    color: inherit;
-}
+/*
+ * GitHub style for Pygments syntax highlighter, for use with Jekyll
+ * Courtesy of GitHub.com
+ */
 
-code {
-    font-family: Consolas, Monaco, Andale Mono, monospace;
-    margin: 0 2px;
-}
-
-pre {
-    font-family: Consolas, Monaco, Andale Mono, monospace;
-    line-height: 1.7em;
-    overflow: auto;
-    padding: 6px 10px;
-    border-left: 5px solid #6CE26C;
-}
-
-pre > code {
-    font-family: Consolas, Monaco, Andale Mono, monospace;
-    border: 0;
-    display: inline;
-    max-width: initial;
-    padding: 0;
-    margin: 0;
-    overflow: initial;
-    line-height: 1.6em;
-    font-size: .95em;
-    white-space: pre;
-    background: 0 0;
-
-}
-
-code {
-    color: #666555;
-}
-
-aside {
-    display: block;
-    float: right;
-    width: 390px;
-}
-blockquote {
-    border-left:.5em solid #eee;
-    padding: 0 0 0 2em;
-    margin-left:0;
-}
-blockquote  cite {
-    font-size:14px;
-    line-height:20px;
-    color:#bfbfbf;
-}
-blockquote cite:before {
-    content: '\2014 \00A0';
-}
-
-blockquote p {
-    color: #666;
-}
-hr {
-    text-align: left;
-    color: #999;
-    height: 2px;
-    padding: 0;
-    margin: 16px 0;
-    background-color: #e7e7e7;
-    border: 0 none;
-}
-
-dl {
-    padding: 0;
-}
-
-dl dt {
-    padding: 10px 0;
-    margin-top: 16px;
-    font-size: 1em;
-    font-style: italic;
-    font-weight: bold;
-}
-
-dl dd {
-    padding: 0 16px;
-    margin-bottom: 16px;
-}
-
-dd {
-    margin-left: 0;
-}
-
-table {
-    *border-collapse: collapse; /* IE7 and lower */
-    border-spacing: 0;
-    width: 100%;
-}
-table {
-    border: solid #ccc 1px;
-}
-
-table thead {
-    background: #f7f7f7;
-}
-
-table thead tr:hover {
-    background: #f7f7f7
-}
-table tr:hover {
-    background: #fbf8e9;
-    -o-transition: all 0.1s ease-in-out;
-    -webkit-transition: all 0.1s ease-in-out;
-    -moz-transition: all 0.1s ease-in-out;
-    -ms-transition: all 0.1s ease-in-out;
-    transition: all 0.1s ease-in-out;
-}
-table td, .table th {
-    border-left: 1px solid #ccc;
-    border-top: 1px solid #ccc;
-    padding: 10px;
-    text-align: left;
-}
-
-table th {
-    border-top: none;
-    text-shadow: 0 1px 0 rgba(255,255,255,.5);
-    padding: 5px;
-    border-left: 1px solid #ccc;
-}
-
-table td:first-child, table th:first-child {
-    border-left: none;
-}
+.highlight pre, pre, .highlight .hll { background-color: #f8f8f8; border: 1px solid #ccc; padding: 6px 10px; border-radius: 3px; }
+.highlight .c { color: #999988; font-style: italic; }
+.highlight .err { color: #a61717; background-color: #e3d2d2; }
+.highlight .k { font-weight: bold; }
+.highlight .o { font-weight: bold; }
+.highlight .cm { color: #999988; font-style: italic; }
+.highlight .cp { color: #999999; font-weight: bold; }
+.highlight .c1 { color: #999988; font-style: italic; }
+.highlight .cs { color: #999999; font-weight: bold; font-style: italic; }
+.highlight .gd { color: #000000; background-color: #ffdddd; }
+.highlight .gd .x { color: #000000; background-color: #ffaaaa; }
+.highlight .ge { font-style: italic; }
+.highlight .gr { color: #aa0000; }
+.highlight .gh { color: #999999; }
+.highlight .gi { color: #000000; background-color: #ddffdd; }
+.highlight .gi .x { color: #000000; background-color: #aaffaa; }
+.highlight .go { color: #888888; }
+.highlight .gp { color: #555555; }
+.highlight .gs { font-weight: bold; }
+.highlight .gu { color: #800080; font-weight: bold; }
+.highlight .gt { color: #aa0000; }
+.highlight .kc { font-weight: bold; }
+.highlight .kd { font-weight: bold; }
+.highlight .kn { font-weight: bold; }
+.highlight .kp { font-weight: bold; }
+.highlight .kr { font-weight: bold; }
+.highlight .kt { color: #445588; font-weight: bold; }
+.highlight .m { color: #009999; }
+.highlight .s { color: #dd1144; }
+.highlight .n { color: #333333; }
+.highlight .na { color: teal; }
+.highlight .nb { color: #0086b3; }
+.highlight .nc { color: #445588; font-weight: bold; }
+.highlight .no { color: teal; }
+.highlight .ni { color: purple; }
+.highlight .ne { color: #990000; font-weight: bold; }
+.highlight .nf { color: #990000; font-weight: bold; }
+.highlight .nn { color: #555555; }
+.highlight .nt { color: navy; }
+.highlight .nv { color: teal; }
+.highlight .ow { font-weight: bold; }
+.highlight .w { color: #bbbbbb; }
+.highlight .mf { color: #009999; }
+.highlight .mh { color: #009999; }
+.highlight .mi { color: #009999; }
+.highlight .mo { color: #009999; }
+.highlight .sb { color: #dd1144; }
+.highlight .sc { color: #dd1144; }
+.highlight .sd { color: #dd1144; }
+.highlight .s2 { color: #dd1144; }
+.highlight .se { color: #dd1144; }
+.highlight .sh { color: #dd1144; }
+.highlight .si { color: #dd1144; }
+.highlight .sx { color: #dd1144; }
+.highlight .sr { color: #009926; }
+.highlight .s1 { color: #dd1144; }
+.highlight .ss { color: #990073; }
+.highlight .bp { color: #999999; }
+.highlight .vc { color: teal; }
+.highlight .vg { color: teal; }
+.highlight .vi { color: teal; }
+.highlight .il { color: #009999; }
+.highlight .gc { color: #999; background-color: #EAF2F5; }
