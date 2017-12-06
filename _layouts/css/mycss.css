@@ -2,7 +2,7 @@
 * @Author: Marte
 * @Date:   2017-12-06 09:36:45
 * @Last Modified by:   Marte
-* @Last Modified time: 2017-12-06 09:53:27
+* @Last Modified time: 2017-12-06 10:25:11
 */
 .content{width:80%;margin:200px auto;}
 	.hide_box{z-index:999;filter:alpha(opacity=50);background:#666;opacity: 0.5;-moz-opacity: 0.5;left:0;top:0;height:99%;width:100%;position:fixed;display:none;}
