@@ -41,7 +41,8 @@ license: 证书类型，对应生成文件LICENSE
 **8.接下来依次输入以下代码即可完成其他剩余操作：**  
 **git add . （注：别忘记后面的.，此操作是把Test文件夹下面的文件都添加进来）  
 git commit  -m"提交信息"（注：“提交信息”里面换成你需要，如“first commit”）  
-git push -u origin master   （注：此操作目的是把本地仓库push到github上面，此步骤需要你输入帐号和密码）**
+git push -u origin master   （注：此操作目的是把本地仓库push到github上面，此步骤需要你输入帐号和密码）   
+git pull origin master 取回远程主机某个分支的更新，再与本地的指定分支合并，它的完整格式稍稍有点复杂。**
 ![mark](http://oyy6ppgxt.bkt.clouddn.com/blog/171113/cF66f267cd.png?imageslim)
 ![mark](http://oyy6ppgxt.bkt.clouddn.com/blog/171113/80GJcLgjdi.png?imageslim)
 ![mark](http://oyy6ppgxt.bkt.clouddn.com/blog/171113/6lb2hjJJmj.png?imageslim)
